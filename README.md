@@ -97,8 +97,8 @@ Confidence Interval is (16.612,16.142)
 
  2. "Is working more hours increase the average income?"  
  
- µh – Mean of average icome for individuals working more than 2600 hours  
- µl- Mean ofaverage icome for individuals working less than 2600 hours  
+ µh – Mean of average income for individuals working more than 2600 hours  
+ µl- Mean of average income for individuals working less than 2600 hours  
  
 
 
