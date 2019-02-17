@@ -109,7 +109,7 @@ Ha => Alternate Hypothesis   µh> µl
 Highworkinghours=D1.loc[D1['hours'] >= 2600]
 µh=Highworkinghours['earnings'].mean()
 Lowworkinghours=D1.loc[D1['hours']<2600]# or
-µl=Lowworkinghours['hours'].mean()
+µl=Lowworkinghours['earnings'].mean()
 
 
 #confidence interval calculation
@@ -122,7 +122,7 @@ CI2=(statistic2+z2*SE),(statistic2-z2*SE2)
 
 ```
 µh=30955.48
-µl=1159.25 
+µl=13564.03 
 
 Since µl<µh alternate hypothesis holds and data is statistically significant.  
 Hence increase in working hours increases earnings.    
