@@ -10,3 +10,8 @@ Before going to the real questions we have analyzed the available sample and its
 
 
 We have developed hypotheses for each of the two research question. For the first question the hypotheses  are “Mean of education level for married and non-separated individuals is not equal to the Mean of education level for separated or divorced individuals” and the null of it is “Mean of education level for married and non-separated individuals is equal to the Mean of education level for separated or divorced individuals” . For the second question the hypotheses are “Mean of average income for individuals working more than 2600 hours is greater than the Mean of average income for individuals working less than 2600 hours” and the null of it is “Mean of average income for individuals working more than 2600 hours is equal to the Mean of average income for individuals working less than 2600 hours”
+
+Based on the results for the first question Mean of education level for separated or divorced individuals is less than the Mean of education level for married and non-separated individuals. Hence inequality of the two mean values holds and because of that we cannot reject our null hypothesis. Therefor the analysis is inconclusive.
+
+
+Analysis for the second question showed that the Mean of average income for individuals working more than 2600 hours(30955.48) is greater than Mean of average income for individuals working less than 2600 hours(13564.03). And the Confidence Interval is (14244.74,14040.09). Hence we can reject our null hypothesis and accept the alternate hypothesis. This shows that the working more number of hours leads to more income.
