@@ -3,13 +3,14 @@
 Hypothesis/Question
 1. "Is education level affect to keep the marriage?"
 - People who have education level higher than level 10 have high probability of ended with divorce/seperated compared to the rest.
-µs – Mean of separated or divorced individuals
-µn- Mean of married and non-separated individuals
 
 µs – Mean of separated or divorced individuals
 µn- Mean of married and non-separated individuals
+
+
 H0 => Null Hypothesis        µs= µn
 Ha => Alternate Hypothesis   µs ≠ µn
+
  
  2. "Is working more hours increase the average income?"
  
