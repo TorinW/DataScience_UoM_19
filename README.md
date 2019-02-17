@@ -1,16 +1,26 @@
 # DataScience_UoM_19
 1. Code for intializing data and looking into the basic statitical insights
-import numpy as np
-import csv
-import pandas as pd
 
-import matplotlib.pyplot as plt
-#%matplotlib inline
+'''import numpy as np  
 
-datafile = "PSID.csv"
+import csv  
 
-D1=pd.read_csv(datafile,delimiter=',')
-Atrr=D1.describe()
+import pandas as pd  
+
+
+import matplotlib.pyplot as plt  
+
+#%matplotlib inline   
+
+datafile = "PSID.csv"  
+
+
+D1=pd.read_csv(datafile,delimiter=',')  
+
+Atrr=D1.describe()  
+'''  
+
+
 
 
 Hypothesis/Question
