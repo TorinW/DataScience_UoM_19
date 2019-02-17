@@ -148,3 +148,4 @@ Assumption
 
 
 References
+Haja, J. (2016). Create Bell Curve and Histogram with Power BI Desktop using DAX. [online] Mssqltips.com. Available at: https://www.mssqltips.com/sqlservertip/4076/create-bell-curve-and-histogram-with-power-bi-desktop-using-dax/ [Accessed 17 Feb. 2019].
