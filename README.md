@@ -20,7 +20,8 @@ D1=pd.read_csv(datafile,delimiter=',')
 
 Atrr=D1.describe()  
 ``` 
-
+>>Sample Statistics*
+![Sample Statistics](https://github.com/TorinW/DataScience_UoM_19/blob/master/descriptive_stats.png)
 
 
 
