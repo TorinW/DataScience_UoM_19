@@ -36,6 +36,19 @@ Hypothesis/Question
 
 H0 => Null Hypothesis        µs= µn  
 Ha => Alternate Hypothesis   µs ≠ µn  
+```python  
+MarriedOnly=D1.loc[D1['married'] == 'married']
+µn=MarriedOnly['educatn'].mean()
+
+
+Seperated=D1.loc[D1['married']=='separated']# or
+Seperated= D1.loc[D1['married']=='divorced']
+
+µs=Seperated['educatn'].mean()
+
+```
+µs=15.33  
+µn=19.34
 
  
  2. "Is working more hours increase the average income?"  
