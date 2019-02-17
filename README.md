@@ -147,6 +147,13 @@ Confidence Interval is (14244.74,14040.09)
 
 **Assumption**
 
+By going through the dataset and the initial data analysis followings are the assumptions made.
+
+- All respondands are in the similar salary scales and have similar working conditions
+- All respondands had/have similar educational opportunities
+- Having kids is indipendant from all the other factors
+
 
 **References**
-Haja, J. (2016). Create Bell Curve and Histogram with Power BI Desktop using DAX. [online] Mssqltips.com. Available at: https://www.mssqltips.com/sqlservertip/4076/create-bell-curve-and-histogram-with-power-bi-desktop-using-dax/ [Accessed 17 Feb. 2019].
+- Haja, J. (2016). Create Bell Curve and Histogram with Power BI Desktop using DAX. [online] Mssqltips.com. Available at: https://www.mssqltips.com/sqlservertip/4076/create-bell-curve-and-histogram-with-power-bi-desktop-using-dax/ [Accessed 17 Feb. 2019].
+- Panel Study of Income Dynamics web site: https://psidonline.isr.umich.edu/  [Accessed 16 Feb. 2019].
