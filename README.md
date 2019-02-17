@@ -1,7 +1,7 @@
 # DataScience_UoM_19
 1. Code for intializing data and looking into the basic statitical insights
 
-'''
+```python
 import numpy as np  
 
 import csv  
@@ -19,7 +19,7 @@ datafile = "PSID.csv"
 D1=pd.read_csv(datafile,delimiter=',')  
 
 Atrr=D1.describe()  
-'''  
+``` 
 
 
 
