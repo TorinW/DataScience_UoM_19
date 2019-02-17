@@ -72,7 +72,8 @@ Seperated= D1.loc[D1['married']=='divorced']
 ```
 µs=15.33  
 µn=19.34
-
+Since µs<µn alternate hypothesis holds and data is statistically significant.  
+Hence increase in education level increases seperation/ divorce :).
  
  2. "Is working more hours increase the average income?"  
  
@@ -82,11 +83,22 @@ Seperated= D1.loc[D1['married']=='divorced']
 
 
 H0 => Null Hypothesis        µh= µl  
-Ha => Alternate Hypothesis   µh> µn 
-    
-    
+Ha => Alternate Hypothesis   µh> µl 
+```python
 
+Highworkinghours=D1.loc[D1['hours'] >= 2600]
+µh=Highworkinghours['earnings'].mean()
+Lowworkinghours=D1.loc[D1['hours']<2600]# or
+µl=Lowworkinghours['hours'].mean()
 
+```
+µh=30955.48
+µl=1159.25 
+
+Since µl<µh alternate hypothesis holds and data is statistically significant.  
+Hence increase in working hours increases earnings.
+
+ 
 
 
 
