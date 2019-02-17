@@ -41,7 +41,7 @@ D1.age.plot(kind='kde')
 >>Age distribution*
 ![Sample Statistics](https://github.com/TorinW/DataScience_UoM_19/blob/master/age_destribution.png)
 
-The age distribution of the sample is biased towards the 20-30 range.
+The age distribution of the sample is biased towards the 30-40 range.
 - From the sample statistics age has shown biased to 38.46 with the standard deviation of 5.59.
 - The above distribution plot for age shows that the age is not uniformly distributed. 
 
