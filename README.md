@@ -10,7 +10,6 @@ import pandas as pd
 
 
 import matplotlib.pyplot as plt  
-
 #%matplotlib inline   
 
 datafile = "PSID.csv"  
@@ -31,7 +30,7 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 #%matplotlib inline
-
+                                                                     
 datafile = "PSID.csv"
 
 D1=pd.read_csv(datafile,delimiter=',')
@@ -47,7 +46,18 @@ The age distribution of the sample is biased towards the 30-40 range.
 
 
 
-Hypothesis/Question
+Hypothesis/Question   
+
+Confidence interval is given as  
+CI=statistic +- z*SE  
+
+Where as  
+z=(statistic-H0)/sigma  
+SE=sigma/root(n)                                 
+                                  
+                                   
+                                  
+
 1. "Is education level affect to keep the marriage?"
 - People who have education level higher than level 10 have high probability of ended with divorce/seperated compared to the rest.
 
@@ -69,12 +79,22 @@ Seperated= D1.loc[D1['married']=='divorced']
 
 µs=Seperated['educatn'].mean()
 
+#confidence interval calculation 
+statistic1=D1['educatn'].mean()
+sigma1=D1['educatn'].std()
+z1=(statistic1-0)/(sigma1)
+SE1=sigma1/math.sqrt(D1['educatn'].count())
+
+CI1=(statistic1+z1*SE),(statistic1-z1*SE1)
+
 ```
 µs=15.33  
 µn=19.34
 Since µs<µn alternate hypothesis holds and data is statistically significant.  
-Hence increase in education level increases seperation/ divorce :).
- 
+Hence increase in education level increases seperation/ divorce :).  
+
+Confidence Interval is (16.612,16.142)  
+
  2. "Is working more hours increase the average income?"  
  
  µh – Mean of average icome for individuals working more than 2600 hours  
@@ -91,12 +111,22 @@ Highworkinghours=D1.loc[D1['hours'] >= 2600]
 Lowworkinghours=D1.loc[D1['hours']<2600]# or
 µl=Lowworkinghours['hours'].mean()
 
+
+#confidence interval calculation
+statistic2=D1['earnings'].mean()
+sigma2=D1['earnings'].std()
+z2=(statistic2-0)/(sigma2)
+SE2=sigma2/math.sqrt(D1['earnings'].count())
+
+CI2=(statistic2+z2*SE),(statistic2-z2*SE2)
+
 ```
 µh=30955.48
 µl=1159.25 
 
 Since µl<µh alternate hypothesis holds and data is statistically significant.  
-Hence increase in working hours increases earnings.
+Hence increase in working hours increases earnings.    
+Confidence Interval is (14244.74,14040.09)
 
  
 
