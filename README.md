@@ -1,6 +1,6 @@
 # DataScience_UoM_19
 
-_Code for intializing data and looking into the basic statitical insights
+> Code for intializing data and looking into the basic statitical insights
 
 ```python
 import numpy as np  
@@ -23,7 +23,7 @@ Atrr=D1.describe()
 >>Sample Statistics*
 ![Sample Statistics](https://github.com/TorinW/DataScience_UoM_19/blob/master/descriptive_stats.png)
 
-_Analyzing the age distribution
+> Analyzing the age distribution
 
 ```python
 import csv
