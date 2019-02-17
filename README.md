@@ -20,8 +20,8 @@ Ha => Alternate Hypothesis   µs ≠ µn
  
 
 
-H0 => Null Hypothesis        µh= µl/  
-Ha => Alternate Hypothesis   µh> µn/  
+H0 => Null Hypothesis        µh= µl  
+Ha => Alternate Hypothesis   µh> µn 
     
     
 
