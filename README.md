@@ -1,7 +1,8 @@
 # DataScience_UoM_19
 1. Code for intializing data and looking into the basic statitical insights
 
-'''import numpy as np  
+'''
+import numpy as np  
 
 import csv  
 
