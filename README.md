@@ -38,10 +38,11 @@ H0 => Null Hypothesis        µs= µn
 Ha => Alternate Hypothesis   µs ≠ µn  
 ```python  
 MarriedOnly=D1.loc[D1['married'] == 'married']
-µn=MarriedOnly['educatn'].mean()
+µn=MarriedOnly['educatn'].mean()       #mean education level for married 
 
 
-Seperated=D1.loc[D1['married']=='separated']# or
+Seperated=D1.loc[D1['married']=='separated']# mean education level for seperated/divorced 
+
 Seperated= D1.loc[D1['married']=='divorced']
 
 µs=Seperated['educatn'].mean()
