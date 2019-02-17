@@ -5,9 +5,9 @@ Hypothesis/Question
 - People who have education level higher than level 10 have high probability of ended with divorce/seperated compared to the rest.
 
 
-µs – Mean of separated or divorced individuals    
+µs – Mean of education level for separated or divorced individuals    
 
-µn- Mean of married and non-separated individuals  
+µn- Mean of education level for married and non-separated individuals  
 
 H0 => Null Hypothesis        µs= µn  
 Ha => Alternate Hypothesis   µs ≠ µn  
