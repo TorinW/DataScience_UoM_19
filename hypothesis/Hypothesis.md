@@ -1,4 +1,4 @@
-Hypothesis/Question   
+#### Hypothesis/Question   
 
 Confidence interval is given as  
 CI=statistic +- z*SE  
@@ -10,8 +10,8 @@ SE=sigma/root(n)
                                    
                                   
 
-1. "Is education level affect to keep the marriage?"
-- People who have education level higher than level 10 have high probability of ended with divorce/seperated compared to the rest.
+#### 1. "Is education level affect to keep the marriage?"
+- People who have education level higher than level 10 have high probability of ended with divorce/separated compared to the rest.
 
 
 µs – Mean of education level for separated or divorced individuals    
@@ -43,14 +43,14 @@ CI1=(statistic1+z1*SE),(statistic1-z1*SE1)
 µs=15.33  
 µn=19.34
 Since µs<µn alternate hypothesis holds and data is statistically significant.  
-Hence increase in education level increases seperation/ divorce :).  
+Hence increase in education level increases separation/ divorce :).  
 
 Confidence Interval is (16.612,16.142)  
 
- 2. "Is working more hours increase the average income?"  
+#### 2. "Is working more hours increase the average income?"  
  
- µh – Mean of average icome for individuals working more than 2600 hours  
- µl- Mean ofaverage icome for individuals working less than 2600 hours  
+ µh – Mean of average income for individuals working more than 2600 hours  
+ µl- Mean of average income for individuals working less than 2600 hours  
  
 
 
@@ -61,7 +61,7 @@ Ha => Alternate Hypothesis   µh> µl
 Highworkinghours=D1.loc[D1['hours'] >= 2600]
 µh=Highworkinghours['earnings'].mean()
 Lowworkinghours=D1.loc[D1['hours']<2600]# or
-µl=Lowworkinghours['hours'].mean()
+µl=Lowworkinghours['earnings'].mean()
 
 
 #confidence interval calculation
@@ -74,8 +74,9 @@ CI2=(statistic2+z2*SE),(statistic2-z2*SE2)
 
 ```
 µh=30955.48
-µl=1159.25 
+µl=13564.03 
 
 Since µl<µh alternate hypothesis holds and data is statistically significant.  
 Hence increase in working hours increases earnings.    
 Confidence Interval is (14244.74,14040.09)
+

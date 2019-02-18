@@ -1,4 +1,4 @@
-1. Code for intializing data and looking into the basic statitical insights
+#### 1. Code for intializing data and looking into the basic statitical insights
 
 ```python
 import numpy as np  
@@ -21,7 +21,7 @@ Atrr=D1.describe()
 >>Sample Statistics*
 ![Sample Statistics](https://github.com/TorinW/DataScience_UoM_19/blob/master/descriptive_stats.png)
 
-2. Analyzing the age distribution
+#### 2. Analyzing the age distribution
 
 ```python
 import csv
@@ -41,5 +41,4 @@ D1.age.plot(kind='kde')
 
 The age distribution of the sample is biased towards the 30-40 range.
 - From the sample statistics age has shown biased to 38.46 with the standard deviation of 5.59.
-- The above distribution plot for age shows that the age is not uniformly distributed. 
-
+- The above distribution plot for age shows that the age is not uniformly distributed.

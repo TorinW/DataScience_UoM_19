@@ -1,4 +1,4 @@
-Visualizations
+#### Visualizations
 >>Divorced/separated stats on edu level less than 11*
 ![divorced/separated stats on edu level less than 11](https://github.com/TorinW/DataScience_UoM_19/blob/master/0-10_2-3.PNG)
 
