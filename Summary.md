@@ -2,9 +2,9 @@
 
 #### Team & The contribution
 - Abilash - Documentation, hypothesis testing, visualization.
-- Torin : Hypotheses building, hypothesis testing with findings, documentation.
+- Torin : Hypotheses building, hypothesis testing with findings, other analysis documentation.
 - Mojith : Making assumptions, Conducting test for biasness, documentation.
-- Pubudu : Hypotheses building, visualization, Documentation;
+- Pubudu : Hypotheses building
 
 #### Git Repo
 https://github.com/TorinW/DataScience_UoM_19
