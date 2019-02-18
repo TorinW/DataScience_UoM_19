@@ -151,12 +151,13 @@ By going through the dataset and the initial data analysis followings are the as
 
 - All respondands are in the similar salary scales and have similar working conditions
 - All respondands had/have similar educational opportunities
-- Having kids is indipendant from all the other factors
+- Having kids is independant from all the other factors
 - Education level 98,99 are outliers.
 - No of kids 98, 99 are outliers.
-- Hours stand for no of working hours, not the no of hours spend with family.
+- Hours stand for no of working hours per year, not the no of hours spend with family.
 
 
 **References**
 - Haja, J. (2016). Create Bell Curve and Histogram with Power BI Desktop using DAX. [online] Mssqltips.com. Available at: https://www.mssqltips.com/sqlservertip/4076/create-bell-curve-and-histogram-with-power-bi-desktop-using-dax/ [Accessed 17 Feb. 2019].
 - Panel Study of Income Dynamics web site: https://psidonline.isr.umich.edu/  [Accessed 16 Feb. 2019].
+-https://pythonhow.com/pandas-data-analysis-functions/
