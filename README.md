@@ -152,6 +152,9 @@ By going through the dataset and the initial data analysis followings are the as
 - All respondands are in the similar salary scales and have similar working conditions
 - All respondands had/have similar educational opportunities
 - Having kids is indipendant from all the other factors
+- Education level 98,99 are outliers.
+- No of kids 98, 99 are outliers.
+- Hours stand for no of working hours, not the no of hours spend with family.
 
 
 **References**
