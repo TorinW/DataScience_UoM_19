@@ -6,6 +6,8 @@
 - Mojith : Making assumptions, Conducting test for biasness, documentation.
 - Pubudu : Hypotheses building
 
+![Responsibilities](https://github.com/TorinW/DataScience_UoM_19/blob/master/images/responsibilities.PNG)
+
 #### Git Repo
 https://github.com/TorinW/DataScience_UoM_19
 
